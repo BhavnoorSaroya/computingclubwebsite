@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "name": "computingclubwebsite",
+  "version": "1.0.0",
+  "description": "Website for computing club The main page as of now remains purposely simple",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
