@@ -2,65 +2,85 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COMPUTING CLUB</title>
-    <link rel="stylesheet" href="app.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clubs | BCIT Computing Club</title>
+
+  <!-- Fonts + CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <center>
-        <!-- Club Logo -->
-        <img src="logo.png" alt="BCIT Computing Club Logo" width="100">
+  <!-- Matrix Rain Canvas -->
+  <canvas id="matrix-rain-canvas"></canvas>
+  <div class="matrix-overlay"></div>
 
-        <h1>BCIT COMPUTING CLUB</h1>
-        <p>Official WEB Page</p>
+  <div class="container">
+    <header class="header">
+      <img src="logo.png" alt="BCIT Computing Club Logo" class="logo" />
+      <h1>BCIT COMPUTING CLUB</h1>
+      <p class="tagline">Official Web Page</p>
 
-        <!-- Navigation Directory -->
-        <nav>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#events">Events</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Links to All Clubs</h2>
+
+        <div class="club-grid">
+          <div class="card">
+            <h3>Computing Club</h3>
+            <p><a href="https://discord.gg/vvf3s2zZYK">Discord</a></p>
             <p>
-                <a href="#">Home</a> |
-                <a href="#news">News</a> |
-                <a href="#contact">Contact</a> |
-                <a href="#events">Events</a>
+              <a href="https://calendar.google.com/calendar/u/1?cid=bzZvMzdwdnM1MDVrM29nb3AzaHRsNWMzcWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">
+                Event Calendar
+              </a>
             </p>
-        </nav>
+          </div>
 
-        <hr>
+          <div class="card">
+            <h3>C4A (Coding for All)</h3>
+            <p><a href="https://discord.gg/dEsCc6MSPU">Discord</a></p>
+            <p>
+              <a href="https://calendar.google.com/calendar/u/2?cid=Y29kaW5nZm9yYWxsYmNpdEBnbWFpbC5jb20">
+                Event Calendar
+              </a>
+            </p>
+          </div>
 
-        <h2>Links to all clubs:</h2>
-        
-        <div class="flex-container">
-            <!-- TODO: Include logos in columns -->
-            <div class="column">
-                <p>Computing club:</p>
-                <p><a href="https://discord.gg/vvf3s2zZYK">Discord</a></p>
-                <p><a href="https://calendar.google.com/calendar/u/1?cid=bzZvMzdwdnM1MDVrM29nb3AzaHRsNWMzcWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">Event Calendar</a></p>
-
-            </div>
-            <div class="column">
-                <p>C4A:</p>
-                <p><a href="https://discord.gg/dEsCc6MSPU">Discord</a></p>
-                <p><a href="https://calendar.google.com/calendar/u/2?cid=Y29kaW5nZm9yYWxsYmNpdEBnbWFpbC5jb20">Event Calendar</a></p>
-            </div>
-            <div class="column">
-                <p>WIC Sign up: <a href="https://forms.gle/xoYZCLd5ZhMLDsKw7">Sign up</a></p>
-            </div>
+          <div class="card">
+            <h3>WIC (Women in Computing)</h3>
+            <p><a href="https://forms.gle/xoYZCLd5ZhMLDsKw7">Sign Up</a></p>
+          </div>
         </div>
+      </section>
+    </main>
 
-        <hr>
-    </center>
-
-    <footer>
-        <p>
-            Thank you for taking the time to visit our web page. If you have questions, you can write us at the email
-            shown above.<br>
-            &copy; 2025 Computing Club BCIT
-        </p>
-        <p>
-            Follow us: <a href="https://discord.gg/vvf3s2zZYK">Discord</a> | <a href="https://discord.gg/vvf3s2zZYK">Instagram</a>
-        </p>
+    <footer class="footer">
+      <p>
+        Thank you for visiting our web page. Questions? Email us anytime.<br>
+        &copy; 2025 Computing Club BCIT
+      </p>
+      <p>
+        Follow us:
+        <a href="https://discord.gg/vvf3s2zZYK">Discord</a> |
+        <a href="https://www.instagram.com/bcitcomputingclub/?hl=en">Instagram</a>
+      </p>
     </footer>
+  </div>
+
+  <!-- Matrix Rain -->
+  <script src="matrix.js"></script>
+  <!-- welcome new students banner-->
+   <script src="welcome.js"></script>
+
 </body>
 
 </html>
