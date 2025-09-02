@@ -2,85 +2,86 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COMPUTING CLUB</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BCIT Computing Club</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- vibe coding is bad thats why i have two css files -->
 </head>
 
 <body>
-    <center>
-        <!-- Club Logo -->
-        <img src="logo.png" alt="BCIT Computing Club Logo" width="100">
+  <!-- Matrix Rain Background -->
+  <canvas id="matrix-rain-canvas"></canvas>
+  <div class="matrix-overlay"></div>
 
-        <h1>BCIT COMPUTING CLUB</h1>
-        <p>Official WEB Page</p>
+  <div class="container">
+    <header class="header">
+      <img src="logo.png" alt="BCIT Computing Club Logo" class="logo" />
+      <h1>BCIT COMPUTING CLUB</h1>
+      <p class="tagline">Official Web Page</p>
 
-        <!-- Navigation Directory -->
-        <nav>
-            <p>
-                <a href="/">Home</a> |
-                <a href="#news">News</a> |
-                <a href="#contact">Contact</a> |
-                <a href="#events">Events</a>
-            </p>
-        </nav>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#events">Events</a>
+      </nav>
+    </header>
 
-        <hr>
+    <main>
+      <section class="club-info">
+        <h2>Our Club</h2>
+        <div class="cards">
+          <a href="https://discord.gg/vvf3s2zZYK" class="card">Midterm and Final Exam Reviews</a>
+          <a href="https://discord.gg/vvf3s2zZYK" class="card">Our Upcoming Hackathon: HTTPHacks</a>
+          <a href="https://discord.gg/vvf3s2zZYK" class="card">Social Events We Host</a>
+          <a href="https://discord.gg/vvf3s2zZYK" class="card">Sponsors: Get in Touch</a>
+        </div>
+      </section>
 
-        <h2><u>Our Club</u></h2>
-        <table width="80%">
-            <tr>
-                <td>
-                    <p><a href="https://discord.gg/vvf3s2zZYK">Midterm and final exam reviews</a></p>
-                </td>
-                <td>
-                    <p><a href="https://discord.gg/vvf3s2zZYK">Our upcoming hackathon: HTTPHacks</a></p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p><a href="https://discord.gg/vvf3s2zZYK">Some of the social events we host for members</a></p>
-                </td>
-                <td>
-                    <p><a href="https://discord.gg/vvf3s2zZYK">Sponsors: Get in touch with us</a></p>
-                </td>
-            </tr>
-        </table>
-        <hr>
+      <section class="news" id="news">
+        <h2>News</h2>
+        <article>
+          <h3>08/03/25 – Our New Executive Committee</h3>
+          <p>Meet the <a href="https://discord.gg/vvf3s2zZYK">new faces</a> leading the club this year!</p>
+        </article>
+        <article>
+          <h3>27/02/25 – How the 1510 Review Went</h3>
+          <p>We had a great turnout for our COMP 1510 exam review session. <a href="https://discord.gg/vvf3s2zZYK">Photos here</a>.</p>
+        </article>
+      </section>
 
-        <h2 id="news"><u>News</u></h2>
-
-        <h3>08/03/25 - Our New Executive Committee</h3>
-        <p>Meet the <a href="https://discord.gg/vvf3s2zZYK">new faces</a> leading the club this year!</p>
-
-        <h3>27/02/25 - How the 1510 Review Went</h3>
-        <p>We had a great turnout for our COMP 1510 exam review session. Thank you to everyone who joined! <a
-                href="https://discord.gg/vvf3s2zZYK">Photos here</a></p>
-
-        <hr>
-
-        <h2 id="contact"><u>Contact</u></h2>
+      <section class="contact" id="contact">
+        <h2>Contact</h2>
         <p>Email: <a href="mailto:computingclub@gmail.com">computingclub@gmail.com</a></p>
         <p>Discord: <a href="https://discord.gg/vvf3s2zZYK">Join our Discord</a></p>
         <p>Instagram: <a href="https://discord.gg/vvf3s2zZYK">Follow us on Instagram</a></p>
-        <hr>
+      </section>
 
-        <h2><u>Social Media</u></h2>
-        <p><a href="https://discord.gg/vvf3s2zZYK">Discord</a> | <a href="https://discord.gg/vvf3s2zZYK">Instagram</a> | <a href="https://discord.gg/vvf3s2zZYK">Twitter</a> | <a href="https://discord.gg/vvf3s2zZYK">Facebook</a></p>
-        <hr>
-    </center>
+      <section class="social">
+        <h2>Social Media</h2>
+        <div class="social-links">
+          <a href="#">Discord</a>
+          <a href="#">Instagram</a>
+          <a href="#">Twitter</a>
+          <a href="#">Facebook</a>
+        </div>
+      </section>
+    </main>
 
-    <footer>
-        <p>
-            Thank you for taking the time to visit our web page. If you have questions, you can write us at the email
-            shown above.<br>
-            &copy; 2025 Computing Club BCIT
-        </p>
-        <p>
-            Follow us: <a href="https://discord.gg/vvf3s2zZYK">Discord</a> | <a href="https://discord.gg/vvf3s2zZYK">Instagram</a>
-        </p>
+    <footer class="footer">
+      <p>© 2025 Computing Club BCIT</p>
+      <p>Thanks for visiting our site!</p>
     </footer>
+  </div>
+
+  <!-- JS -->
+  <script src="matrix.js"></script>
 </body>
 
 </html>
-
