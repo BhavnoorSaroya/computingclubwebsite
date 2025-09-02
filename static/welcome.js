@@ -7,7 +7,7 @@
   banner.innerHTML = `
     <p>
       🎉 <strong>Welcome new CST students!</strong>
-      Join our <a href="https://discord.gg/vvf3s2zZYK" target="_blank" rel="noopener noreferrer">Discord</a> to connect with peers, get support, and join events!
+      Join our <a href="https://discord.gg/vvf3s2zZYK" target="_blank" rel="noopener noreferrer">Discord</a>!
     </p>
     <div class="glow-circles"></div>
   `;
