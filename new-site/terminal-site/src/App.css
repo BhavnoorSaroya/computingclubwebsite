@@ -1,0 +1,37 @@
+:root {
+  --bg: #0d0d0d;
+  --fg: #00ff95;
+  --cursor: #00ff95;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 17px;
+}
+
+.terminal {
+  padding: 2rem;
+  height: 100vh;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.prompt {
+  display: flex;
+}
+
+.cursor {
+  width: 8px;
+  background: var(--cursor);
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+
+
