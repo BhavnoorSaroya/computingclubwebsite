@@ -74,6 +74,13 @@ export default function Terminal() {
       await new Promise((r) => setTimeout(r, 400));
       runCommand("contact");
 
+      const path = window.location.pathname;
+
+      if (path === "/clubs") {
+        await new Promise((r) => setTimeout(r, 400));
+        runCommand("clubs");
+      }
+
       await new Promise((r) => setTimeout(r, 400));
       runCommand("help");
     })();

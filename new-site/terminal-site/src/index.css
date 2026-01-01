@@ -26,8 +26,10 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
+  min-width: 100vw;
   min-height: 100vh;
+  overflow: hidden; 
+
 }
 
 h1 {
@@ -82,11 +84,24 @@ body {
   font-size: 17px;
 }
 
+/* .terminal {
+  padding: 2rem;
+  height: 100vh;
+  overflow-y: auto;
+  box-sizing: border-box;
+} */
+
 .terminal {
   padding: 2rem;
   height: 100vh;
   overflow-y: auto;
   box-sizing: border-box;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.terminal::-webkit-scrollbar {
+  display: none;
 }
 
 .prompt {
