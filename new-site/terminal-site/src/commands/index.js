@@ -20,13 +20,14 @@ A computing community running events, workshops, and hackathons, guiding student
   events: () => `
 <span id="terminal-title">past events</span>
 ---------------
-• orientation event
 • the social hangout - ne01
 • fall 2025 hackathon: <a href="https://httphacks.com">HTTP Hacks</a>
+• winter cst orientation
+• leetcode night
 <span id="terminal-title">upcoming events</span>
 ---------------
-• winter cst orientation
-• spring 2025 Hackathon: <surprise>
+• hackathon workshops (coming soon)
+• spring 2025 hackathon: <a href="https://hackthebreak.com">Hack the Break</a>
 • social Events (LAN night, pizza night)
 `,
 
@@ -99,6 +100,8 @@ expenses: () => `
 
 clubs: () => `
 <span id="terminal-title">Useful links for new students</span>
+<div class="clubs-desktop">
+<pre>
 +------------------+----------------------------------------+
 | CLUB             | LINKS                                  |
 +------------------+----------------------------------------+
@@ -118,6 +121,29 @@ clubs: () => `
 | Computing        | Registration: coming soon              |
 |                  | LinkedIn    : <a href="https://www.linkedin.com/company/bcit-women-in-computing/" target="_blank">BCIT Women In Computing</a>  |
 +------------------+----------------------------------------+
+<pre>
+</div>
+
+
+<div class="clubs-mobile">
+  <div class="club-card">
+    <b>2026 Winter Intake</b>
+    Discord: <a href="https://discord.gg/BzKHyaReyr" target="_blank">Join Discord</a> 
+  
+    <b>Computing Club:</b>
+    Instagram: <a href="https://instagram.com/bcitcomputingclub" target="_blank">@bcitcomputingclub</a>
+    Discord: <a href="https://discord.gg/vvf3s2zZYK" target="_blank">Join Discord</a>
+    LinkedIn: <a href="https://www.linkedin.com/company/bcit-computing-club/" target="_blank">BCIT Computing Club</a>
+  
+    <b>Coding4All:</b>
+    Instagram: <a href="https://instagram.com/bcitcodingforall" target="_blank">@bcitcodingforall</a>
+    Discord: <a href="https://discord.gg/zQ2aJUF7rf" target="_blank">Join Discord</a>
+  
+    <b>Women in Computing:</b>
+    Instagram: <a href="https://instagram.com/wic.bcit" target="_blank">@wic.bcit</a>
+    Registration: coming soon
+  </div>
+</div>
 
 `,
 
