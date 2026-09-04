@@ -7,7 +7,6 @@ export const commands = {
   news        recent announcements
   contact     how to reach us
   clear       clear the terminal
-  expenses    <b>NEW - expense report for http hacks 2025</b>
   clubs       useful links for new students
 `,
 // We run events, workshops, hackathons like HTTP Hacks, and help students level up through real projects. 
@@ -22,12 +21,13 @@ A computing community running events, workshops, and hackathons, guiding student
 ---------------
 • the social hangout - ne01
 • fall 2025 hackathon: <a href="https://httphacks.com">HTTP Hacks</a>
-• winter cst orientation
+• spring 2025 hackathon: Hack the Break
+• fall cst orientation
 • leetcode night
 <span id="terminal-title">upcoming events</span>
 ---------------
 • hackathon workshops (coming soon)
-• spring 2025 hackathon: <a href="https://hackthebreak.com">Hack the Break</a>
+• Fall 2026 hackathon
 • social Events (LAN night, pizza night)
 `,
 
@@ -36,7 +36,7 @@ A computing community running events, workshops, and hackathons, guiding student
 02/09/25 — Welcoming new students at orientation  
 Photos will be posted on Instagram and Discord.
 
-08/03/25 — New Executive Committee  
+08/03/26 — New Executive Committee  
 Meet the new faces leading the club this year!
 
 22/11/25 — Hackathon photos  
@@ -105,7 +105,7 @@ clubs: () => `
 +------------------+----------------------------------------+
 | CLUB             | LINKS                                  |
 +------------------+----------------------------------------+
-| 2026 Winter      | Discord     : <a href="https://discord.gg/BzKHyaReyr" target="_blank">Join Discord</a>             |
+| 2026 Fall        | Discord     : <a href="https://discord.gg/8rHBFJymaA" target="_blank">Join Discord</a>             |
 | Intake           |                                        |
 +------------------+----------------------------------------+ 
 | Computing Club   | Website     : <a href="https://ccbcit.ca">this website</a>             |
