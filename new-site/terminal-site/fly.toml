@@ -1,4 +1,4 @@
-# fly.toml app configuration file generated for computingclubwebsite on 2025-11-23T01:28:03-08:00
+# fly.toml app configuration file generated for computingclubwebsite on 2026-09-04T02:36:14Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
@@ -21,3 +21,11 @@ primary_region = 'yyz'
   memory = '512mb'
   cpu_kind = 'shared'
   cpus = 1
+
+[[vm]]
+  memory = '256mb'
+  cpu_kind = 'shared'
+  cpus = 1
+  memory_mb = 256
+  processes = ['app']
+  size = 'shared-cpu-1x'
