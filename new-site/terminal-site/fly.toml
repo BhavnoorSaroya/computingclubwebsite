@@ -4,7 +4,7 @@
 #
 
 app = 'computingclubwebsite'
-primary_region = 'yyz'
+primary_region = 'ord'
 
 [env]
   PORT = '80'
