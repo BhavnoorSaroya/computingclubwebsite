@@ -127,8 +127,8 @@ clubs: () => `
 
 <div class="clubs-mobile">
   <div class="club-card">
-    <b>2026 Winter Intake</b>
-    Discord: <a href="https://discord.gg/BzKHyaReyr" target="_blank">Join Discord</a> 
+    <b>2026 Fall Intake</b>
+    Discord: <a href="https://discord.gg/8rHBFJymaA" target="_blank">Join Discord</a> 
   
     <b>Computing Club:</b>
     Instagram: <a href="https://instagram.com/bcitcomputingclub" target="_blank">@bcitcomputingclub</a>
