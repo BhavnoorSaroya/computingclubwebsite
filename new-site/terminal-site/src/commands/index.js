@@ -100,7 +100,7 @@ expenses: () => `
 `,
 
 statement: () => `
-13. Statement on Ethical Hacking & Responsible Disclosure
+Statement on Ethical Hacking & Responsible Disclosure
 
 At the BCIT Computing Club, we strongly believe that proactive collaboration is vital to cybersecurity. 
 As AI-assisted development and rapid code generation becomes the norm, the risk of inadvertently 
