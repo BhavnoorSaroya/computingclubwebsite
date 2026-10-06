@@ -8,6 +8,7 @@ export const commands = {
   contact     how to reach us
   clear       clear the terminal
   clubs       useful links for new students
+  statement   white hat hacker statement
 `,
 // We run events, workshops, hackathons like HTTP Hacks, and help students level up through real projects. 
 // liked how that sounded too
@@ -27,7 +28,7 @@ A computing community running events, workshops, and hackathons, guiding student
 <span id="terminal-title">upcoming events</span>
 ---------------
 • hackathon workshops (coming soon)
-• Fall 2026 hackathon
+• Fall 2026 hackathon (httphacks.com)
 • social Events (LAN night, pizza night)
 `,
 
@@ -96,6 +97,22 @@ expenses: () => `
 | TOTAL      |                 | $5856.25  |                         |                                          |                              |
 +------------+-----------------+-----------+------------------------ +------------------------------------------+------------------------------+
 </pre>
+`,
+
+statement: () => `
+13. Statement on Ethical Hacking & Responsible Disclosure
+
+At the BCIT Computing Club, we strongly believe that proactive collaboration is vital to cybersecurity. 
+As AI-assisted development and rapid code generation becomes the norm, the risk of inadvertently 
+introducing security vulnerabilities is higher than ever. By empowering white hats and security researchers
+through bug bounties and recognition, organizations foster a culture of continuous improvement, trust,
+and integrity. This ensures vulnerabilities are met with transparent resolution rather than exploitation.
+We stand firmly by these ethical defense practices as we wish to empower the next generation of developers
+to build safer, more resilient solutions.
+
+If you believe you have discovered a potential security issue or vulnerability within any of our systems,
+we encourage responsible disclosure. Please reach out to our team through any of our official channels,
+including email or Discord, so we can work together to address it promptly. 
 `,
 
 clubs: () => `
